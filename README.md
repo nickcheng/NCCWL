@@ -35,7 +35,7 @@ Place ```NCCWL``` folder in your project. Add the dependences. That's all.
 
 Import ```NCCWL.h``` in your main delegate file. and place the code below in your ```application:didFinishLaunchingWithOptions```.
 
-```
+```objective-c
 [[NCCWL sharedInstance] setCrashHandler:^(NSString *cwlFilePath) {
   // Handle your zipped crash and logs.
   // How about upload the zipped file to a remote server?
