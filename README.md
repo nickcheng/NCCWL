@@ -16,7 +16,7 @@ I didn't expose all the properties of log and crash libraries. You can modify th
 
 Open source libraries:
 
-* [PLCrashReporter](https://code.google.com/p/plcrashreporter/)
+* [PLCrashReporter](https://code.google.com/p/plcrashreporter/) (If you have problem compiling the source code, just download the binary release.)
 * [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberjack)
 * [NSLogger](https://github.com/fpillet/NSLogger)
 * [ssziparcive](https://github.com/soffes/ssziparchive)
@@ -30,6 +30,18 @@ Other frameworks:
 ## Installation ##
 
 Place ```NCCWL``` folder in your project. Add the dependences. That's all.
+
+### Install w/ CocoaPods ###
+
+Add code below in your ```Podfile```. And run ```pod install```.
+
+```
+pod 'NCCWL'
+```
+
+At last, you need to manual add ```CrashReporter.framework``` to your project. It is in ```(YourProjectFolder)/Pods/NCCWL```.
+
+Because I'm new to CocoaPods, you need to do the last extra step. If you have any idea with the CocoaPods spec file, please tell me. Thank you in advanced!
 
 ## Usage ##
 
