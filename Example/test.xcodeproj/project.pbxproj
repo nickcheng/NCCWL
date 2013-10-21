@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		40398F4416F71134004F0BD7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40398F4316F71134004F0BD7 /* libz.dylib */; };
 		40398F4616FA995F004F0BD7 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40398F4516FA995F004F0BD7 /* CrashReporter.framework */; };
-		40398F4916FAE026004F0BD7 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F4816FAE026004F0BD7 /* SSZipArchive.m */; };
-		40398F5416FAE03A004F0BD7 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 40398F4C16FAE03A004F0BD7 /* ioapi.c */; };
-		40398F5516FAE03A004F0BD7 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 40398F4E16FAE03A004F0BD7 /* mztools.c */; };
-		40398F5616FAE03A004F0BD7 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5016FAE03A004F0BD7 /* unzip.c */; };
-		40398F5716FAE03A004F0BD7 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5216FAE03A004F0BD7 /* zip.c */; };
 		40398F6916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5A16FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m */; };
 		40398F6A16FAE05C004F0BD7 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5C16FAE05C004F0BD7 /* DDASLLogger.m */; };
 		40398F6B16FAE05C004F0BD7 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5E16FAE05C004F0BD7 /* DDFileLogger.m */; };
@@ -37,6 +32,11 @@
 		4057A0B016EF2EE50017628E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4057A0AF16EF2EE50017628E /* Default-568h@2x.png */; };
 		4057A0B316EF2EE50017628E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4057A0B216EF2EE50017628E /* ViewController.m */; };
 		4057A0B616EF2EE50017628E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4057A0B416EF2EE50017628E /* ViewController.xib */; };
+		40C9573418152CB50010AB7B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572A18152CB50010AB7B /* ioapi.c */; };
+		40C9573518152CB50010AB7B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572C18152CB50010AB7B /* mztools.c */; };
+		40C9573618152CB50010AB7B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572E18152CB50010AB7B /* unzip.c */; };
+		40C9573718152CB50010AB7B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9573018152CB50010AB7B /* zip.c */; };
+		40C9573818152CB50010AB7B /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9573318152CB50010AB7B /* SSZipArchive.m */; };
 		40D2102216F1C7A800B4DE03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2102116F1C7A800B4DE03 /* CFNetwork.framework */; };
 		40D2102416F1C7D100B4DE03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2102316F1C7D100B4DE03 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -44,17 +44,6 @@
 /* Begin PBXFileReference section */
 		40398F4316F71134004F0BD7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		40398F4516FA995F004F0BD7 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = ../CrashReporter.framework; sourceTree = "<group>"; };
-		40398F4716FAE026004F0BD7 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = ../../ssziparchive/SSZipArchive.h; sourceTree = "<group>"; };
-		40398F4816FAE026004F0BD7 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = ../../ssziparchive/SSZipArchive.m; sourceTree = "<group>"; };
-		40398F4B16FAE03A004F0BD7 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		40398F4C16FAE03A004F0BD7 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		40398F4D16FAE03A004F0BD7 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		40398F4E16FAE03A004F0BD7 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		40398F4F16FAE03A004F0BD7 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		40398F5016FAE03A004F0BD7 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		40398F5116FAE03A004F0BD7 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		40398F5216FAE03A004F0BD7 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		40398F5316FAE03A004F0BD7 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		40398F5916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		40398F5A16FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		40398F5B16FAE05C004F0BD7 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
@@ -95,6 +84,17 @@
 		4057A0B116EF2EE50017628E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4057A0B216EF2EE50017628E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4057A0B516EF2EE50017628E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		40C9572918152CB50010AB7B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		40C9572A18152CB50010AB7B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		40C9572B18152CB50010AB7B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		40C9572C18152CB50010AB7B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		40C9572D18152CB50010AB7B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		40C9572E18152CB50010AB7B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		40C9572F18152CB50010AB7B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		40C9573018152CB50010AB7B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		40C9573118152CB50010AB7B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		40C9573218152CB50010AB7B /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = ../../ssziparchive/SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		40C9573318152CB50010AB7B /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = ../../ssziparchive/SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
 		40D2102116F1C7A800B4DE03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		40D2102316F1C7D100B4DE03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -120,28 +120,11 @@
 		40398F4216F70F8C004F0BD7 /* SSZipArchive */ = {
 			isa = PBXGroup;
 			children = (
-				40398F4A16FAE03A004F0BD7 /* minizip */,
-				40398F4716FAE026004F0BD7 /* SSZipArchive.h */,
-				40398F4816FAE026004F0BD7 /* SSZipArchive.m */,
+				40C9572818152CB50010AB7B /* minizip */,
+				40C9573218152CB50010AB7B /* SSZipArchive.h */,
+				40C9573318152CB50010AB7B /* SSZipArchive.m */,
 			);
 			name = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		40398F4A16FAE03A004F0BD7 /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				40398F4B16FAE03A004F0BD7 /* crypt.h */,
-				40398F4C16FAE03A004F0BD7 /* ioapi.c */,
-				40398F4D16FAE03A004F0BD7 /* ioapi.h */,
-				40398F4E16FAE03A004F0BD7 /* mztools.c */,
-				40398F4F16FAE03A004F0BD7 /* mztools.h */,
-				40398F5016FAE03A004F0BD7 /* unzip.c */,
-				40398F5116FAE03A004F0BD7 /* unzip.h */,
-				40398F5216FAE03A004F0BD7 /* zip.c */,
-				40398F5316FAE03A004F0BD7 /* zip.h */,
-			);
-			name = minizip;
-			path = ../../ssziparchive/minizip;
 			sourceTree = "<group>";
 		};
 		40398F5816FAE05C004F0BD7 /* Lumberjack */ = {
@@ -237,6 +220,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		40C9572818152CB50010AB7B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				40C9572918152CB50010AB7B /* crypt.h */,
+				40C9572A18152CB50010AB7B /* ioapi.c */,
+				40C9572B18152CB50010AB7B /* ioapi.h */,
+				40C9572C18152CB50010AB7B /* mztools.c */,
+				40C9572D18152CB50010AB7B /* mztools.h */,
+				40C9572E18152CB50010AB7B /* unzip.c */,
+				40C9572F18152CB50010AB7B /* unzip.h */,
+				40C9573018152CB50010AB7B /* zip.c */,
+				40C9573118152CB50010AB7B /* zip.h */,
+			);
+			name = minizip;
+			path = ../../ssziparchive/SSZipArchive/minizip;
+			sourceTree = "<group>";
+		};
 		40D2100316F1C50B00B4DE03 /* NSLogger */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,18 +329,18 @@
 			files = (
 				4057A0A616EF2EE50017628E /* main.m in Sources */,
 				4057A0AA16EF2EE50017628E /* AppDelegate.m in Sources */,
+				40C9573518152CB50010AB7B /* mztools.c in Sources */,
+				40C9573718152CB50010AB7B /* zip.c in Sources */,
+				40C9573818152CB50010AB7B /* SSZipArchive.m in Sources */,
 				4057A0B316EF2EE50017628E /* ViewController.m in Sources */,
-				40398F4916FAE026004F0BD7 /* SSZipArchive.m in Sources */,
-				40398F5416FAE03A004F0BD7 /* ioapi.c in Sources */,
-				40398F5516FAE03A004F0BD7 /* mztools.c in Sources */,
-				40398F5616FAE03A004F0BD7 /* unzip.c in Sources */,
-				40398F5716FAE03A004F0BD7 /* zip.c in Sources */,
 				40398F6916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m in Sources */,
 				40398F6A16FAE05C004F0BD7 /* DDASLLogger.m in Sources */,
 				40398F6B16FAE05C004F0BD7 /* DDFileLogger.m in Sources */,
 				40398F6C16FAE05C004F0BD7 /* DDLog.m in Sources */,
 				40398F6D16FAE05C004F0BD7 /* DDTTYLogger.m in Sources */,
 				40398F6E16FAE05C004F0BD7 /* ContextFilterLogFormatter.m in Sources */,
+				40C9573418152CB50010AB7B /* ioapi.c in Sources */,
+				40C9573618152CB50010AB7B /* unzip.c in Sources */,
 				40398F6F16FAE05C004F0BD7 /* DispatchQueueLogFormatter.m in Sources */,
 				40398F7416FAE079004F0BD7 /* LoggerClient.m in Sources */,
 				40398F7B16FAE088004F0BD7 /* NCCWLFormatter.m in Sources */,
