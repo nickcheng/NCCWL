@@ -1,0 +1,23 @@
+PODS:
+  - CocoaLumberjack (1.9.0):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.9.0)
+  - CocoaLumberjack/Extensions (1.9.0):
+    - CocoaLumberjack/Core
+  - NSLogger (1.2)
+  - PLCrashReporter (1.2-rc5)
+  - SSZipArchive (0.3.1)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - NSLogger
+  - PLCrashReporter
+  - SSZipArchive
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
+  NSLogger: c4df4b0208d724f244c05f1966b7402f14d7bf55
+  PLCrashReporter: 8d0e17c3bd9c3cbbc8cc0d959263ebad2a6dfad7
+  SSZipArchive: 6dc0ea3fe4b55574bee23c9f01d7c0f8437d59ef
+
+COCOAPODS: 0.33.1

@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40398F4416F71134004F0BD7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40398F4316F71134004F0BD7 /* libz.dylib */; };
-		40398F4616FA995F004F0BD7 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40398F4516FA995F004F0BD7 /* CrashReporter.framework */; };
-		40398F6916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5A16FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m */; };
-		40398F6A16FAE05C004F0BD7 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5C16FAE05C004F0BD7 /* DDASLLogger.m */; };
-		40398F6B16FAE05C004F0BD7 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F5E16FAE05C004F0BD7 /* DDFileLogger.m */; };
-		40398F6C16FAE05C004F0BD7 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F6016FAE05C004F0BD7 /* DDLog.m */; };
-		40398F6D16FAE05C004F0BD7 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F6216FAE05C004F0BD7 /* DDTTYLogger.m */; };
-		40398F6E16FAE05C004F0BD7 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F6516FAE05C004F0BD7 /* ContextFilterLogFormatter.m */; };
-		40398F6F16FAE05C004F0BD7 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F6716FAE05C004F0BD7 /* DispatchQueueLogFormatter.m */; };
-		40398F7016FAE05C004F0BD7 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 40398F6816FAE05C004F0BD7 /* README.txt */; };
-		40398F7416FAE079004F0BD7 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F7216FAE079004F0BD7 /* LoggerClient.m */; };
 		40398F7B16FAE088004F0BD7 /* NCCWLFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F7616FAE088004F0BD7 /* NCCWLFormatter.m */; };
 		40398F7C16FAE088004F0BD7 /* NCCWLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F7816FAE088004F0BD7 /* NCCWLLogger.m */; };
 		40398F7D16FAE088004F0BD7 /* NCCWL.m in Sources */ = {isa = PBXBuildFile; fileRef = 40398F7A16FAE088004F0BD7 /* NCCWL.m */; };
@@ -32,36 +21,10 @@
 		4057A0B016EF2EE50017628E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4057A0AF16EF2EE50017628E /* Default-568h@2x.png */; };
 		4057A0B316EF2EE50017628E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4057A0B216EF2EE50017628E /* ViewController.m */; };
 		4057A0B616EF2EE50017628E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4057A0B416EF2EE50017628E /* ViewController.xib */; };
-		40C9573418152CB50010AB7B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572A18152CB50010AB7B /* ioapi.c */; };
-		40C9573518152CB50010AB7B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572C18152CB50010AB7B /* mztools.c */; };
-		40C9573618152CB50010AB7B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9572E18152CB50010AB7B /* unzip.c */; };
-		40C9573718152CB50010AB7B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 40C9573018152CB50010AB7B /* zip.c */; };
-		40C9573818152CB50010AB7B /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9573318152CB50010AB7B /* SSZipArchive.m */; };
-		40D2102216F1C7A800B4DE03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2102116F1C7A800B4DE03 /* CFNetwork.framework */; };
-		40D2102416F1C7D100B4DE03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2102316F1C7D100B4DE03 /* SystemConfiguration.framework */; };
+		6F8CE879784A4A87AE432BEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 442BF2BFE786491FBBC9390B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40398F4316F71134004F0BD7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		40398F4516FA995F004F0BD7 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = ../CrashReporter.framework; sourceTree = "<group>"; };
-		40398F5916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		40398F5A16FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		40398F5B16FAE05C004F0BD7 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
-		40398F5C16FAE05C004F0BD7 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		40398F5D16FAE05C004F0BD7 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		40398F5E16FAE05C004F0BD7 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		40398F5F16FAE05C004F0BD7 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		40398F6016FAE05C004F0BD7 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		40398F6116FAE05C004F0BD7 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		40398F6216FAE05C004F0BD7 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		40398F6416FAE05C004F0BD7 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		40398F6516FAE05C004F0BD7 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		40398F6616FAE05C004F0BD7 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		40398F6716FAE05C004F0BD7 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		40398F6816FAE05C004F0BD7 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		40398F7116FAE079004F0BD7 /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = "../../NSLogger/Client Logger/iOS/LoggerClient.h"; sourceTree = "<group>"; };
-		40398F7216FAE079004F0BD7 /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = "../../NSLogger/Client Logger/iOS/LoggerClient.m"; sourceTree = "<group>"; };
-		40398F7316FAE079004F0BD7 /* LoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = "../../NSLogger/Client Logger/iOS/LoggerCommon.h"; sourceTree = "<group>"; };
 		40398F7516FAE088004F0BD7 /* NCCWLFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCCWLFormatter.h; path = ../../NCCWL/NCCWLFormatter.h; sourceTree = "<group>"; };
 		40398F7616FAE088004F0BD7 /* NCCWLFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCCWLFormatter.m; path = ../../NCCWL/NCCWLFormatter.m; sourceTree = "<group>"; };
 		40398F7716FAE088004F0BD7 /* NCCWLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCCWLLogger.h; path = ../../NCCWL/NCCWLLogger.h; sourceTree = "<group>"; };
@@ -84,19 +47,8 @@
 		4057A0B116EF2EE50017628E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4057A0B216EF2EE50017628E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4057A0B516EF2EE50017628E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		40C9572918152CB50010AB7B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		40C9572A18152CB50010AB7B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		40C9572B18152CB50010AB7B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		40C9572C18152CB50010AB7B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		40C9572D18152CB50010AB7B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		40C9572E18152CB50010AB7B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		40C9572F18152CB50010AB7B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		40C9573018152CB50010AB7B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		40C9573118152CB50010AB7B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		40C9573218152CB50010AB7B /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = ../../ssziparchive/SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
-		40C9573318152CB50010AB7B /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = ../../ssziparchive/SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
-		40D2102116F1C7A800B4DE03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		40D2102316F1C7D100B4DE03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		442BF2BFE786491FBBC9390B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		874D3F33291647CB86D92815 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,70 +56,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40398F4416F71134004F0BD7 /* libz.dylib in Frameworks */,
-				40D2102416F1C7D100B4DE03 /* SystemConfiguration.framework in Frameworks */,
-				40D2102216F1C7A800B4DE03 /* CFNetwork.framework in Frameworks */,
 				4057A09A16EF2EE50017628E /* UIKit.framework in Frameworks */,
 				4057A09C16EF2EE50017628E /* Foundation.framework in Frameworks */,
 				4057A09E16EF2EE50017628E /* CoreGraphics.framework in Frameworks */,
-				40398F4616FA995F004F0BD7 /* CrashReporter.framework in Frameworks */,
+				6F8CE879784A4A87AE432BEE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40398F4216F70F8C004F0BD7 /* SSZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				40C9572818152CB50010AB7B /* minizip */,
-				40C9573218152CB50010AB7B /* SSZipArchive.h */,
-				40C9573318152CB50010AB7B /* SSZipArchive.m */,
-			);
-			name = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		40398F5816FAE05C004F0BD7 /* Lumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				40398F5916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.h */,
-				40398F5A16FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m */,
-				40398F5B16FAE05C004F0BD7 /* DDASLLogger.h */,
-				40398F5C16FAE05C004F0BD7 /* DDASLLogger.m */,
-				40398F5D16FAE05C004F0BD7 /* DDFileLogger.h */,
-				40398F5E16FAE05C004F0BD7 /* DDFileLogger.m */,
-				40398F5F16FAE05C004F0BD7 /* DDLog.h */,
-				40398F6016FAE05C004F0BD7 /* DDLog.m */,
-				40398F6116FAE05C004F0BD7 /* DDTTYLogger.h */,
-				40398F6216FAE05C004F0BD7 /* DDTTYLogger.m */,
-				40398F6316FAE05C004F0BD7 /* Extensions */,
-			);
-			name = Lumberjack;
-			path = ../../CocoaLumberjack/Lumberjack;
-			sourceTree = "<group>";
-		};
-		40398F6316FAE05C004F0BD7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				40398F6416FAE05C004F0BD7 /* ContextFilterLogFormatter.h */,
-				40398F6516FAE05C004F0BD7 /* ContextFilterLogFormatter.m */,
-				40398F6616FAE05C004F0BD7 /* DispatchQueueLogFormatter.h */,
-				40398F6716FAE05C004F0BD7 /* DispatchQueueLogFormatter.m */,
-				40398F6816FAE05C004F0BD7 /* README.txt */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		4057A08D16EF2EE50017628E = {
 			isa = PBXGroup;
 			children = (
-				40398F4516FA995F004F0BD7 /* CrashReporter.framework */,
-				40398F4316F71134004F0BD7 /* libz.dylib */,
-				40D2102316F1C7D100B4DE03 /* SystemConfiguration.framework */,
-				40D2102116F1C7A800B4DE03 /* CFNetwork.framework */,
 				4057A09F16EF2EE50017628E /* test */,
 				4057A09816EF2EE50017628E /* Frameworks */,
 				4057A09716EF2EE50017628E /* Products */,
+				874D3F33291647CB86D92815 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +90,7 @@
 				4057A09916EF2EE50017628E /* UIKit.framework */,
 				4057A09B16EF2EE50017628E /* Foundation.framework */,
 				4057A09D16EF2EE50017628E /* CoreGraphics.framework */,
+				442BF2BFE786491FBBC9390B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,9 +98,6 @@
 		4057A09F16EF2EE50017628E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				40398F5816FAE05C004F0BD7 /* Lumberjack */,
-				40398F4216F70F8C004F0BD7 /* SSZipArchive */,
-				40D2100316F1C50B00B4DE03 /* NSLogger */,
 				40D2102016F1C5AC00B4DE03 /* NCCWL */,
 				4057A0A816EF2EE50017628E /* AppDelegate.h */,
 				4057A0A916EF2EE50017628E /* AppDelegate.m */,
@@ -220,33 +123,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		40C9572818152CB50010AB7B /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				40C9572918152CB50010AB7B /* crypt.h */,
-				40C9572A18152CB50010AB7B /* ioapi.c */,
-				40C9572B18152CB50010AB7B /* ioapi.h */,
-				40C9572C18152CB50010AB7B /* mztools.c */,
-				40C9572D18152CB50010AB7B /* mztools.h */,
-				40C9572E18152CB50010AB7B /* unzip.c */,
-				40C9572F18152CB50010AB7B /* unzip.h */,
-				40C9573018152CB50010AB7B /* zip.c */,
-				40C9573118152CB50010AB7B /* zip.h */,
-			);
-			name = minizip;
-			path = ../../ssziparchive/SSZipArchive/minizip;
-			sourceTree = "<group>";
-		};
-		40D2100316F1C50B00B4DE03 /* NSLogger */ = {
-			isa = PBXGroup;
-			children = (
-				40398F7116FAE079004F0BD7 /* LoggerClient.h */,
-				40398F7216FAE079004F0BD7 /* LoggerClient.m */,
-				40398F7316FAE079004F0BD7 /* LoggerCommon.h */,
-			);
-			name = NSLogger;
-			sourceTree = "<group>";
-		};
 		40D2102016F1C5AC00B4DE03 /* NCCWL */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4057A0B916EF2EE50017628E /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
+				305975385D82459F886DB818 /* Check Pods Manifest.lock */,
 				4057A09216EF2EE50017628E /* Sources */,
 				4057A09316EF2EE50017628E /* Frameworks */,
 				4057A09416EF2EE50017628E /* Resources */,
+				BDCE6E7E44D642EE899C44C8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,11 +194,43 @@
 				4057A0AE16EF2EE50017628E /* Default@2x.png in Resources */,
 				4057A0B016EF2EE50017628E /* Default-568h@2x.png in Resources */,
 				4057A0B616EF2EE50017628E /* ViewController.xib in Resources */,
-				40398F7016FAE05C004F0BD7 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305975385D82459F886DB818 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCE6E7E44D642EE899C44C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4057A09216EF2EE50017628E /* Sources */ = {
@@ -329,20 +239,7 @@
 			files = (
 				4057A0A616EF2EE50017628E /* main.m in Sources */,
 				4057A0AA16EF2EE50017628E /* AppDelegate.m in Sources */,
-				40C9573518152CB50010AB7B /* mztools.c in Sources */,
-				40C9573718152CB50010AB7B /* zip.c in Sources */,
-				40C9573818152CB50010AB7B /* SSZipArchive.m in Sources */,
 				4057A0B316EF2EE50017628E /* ViewController.m in Sources */,
-				40398F6916FAE05C004F0BD7 /* DDAbstractDatabaseLogger.m in Sources */,
-				40398F6A16FAE05C004F0BD7 /* DDASLLogger.m in Sources */,
-				40398F6B16FAE05C004F0BD7 /* DDFileLogger.m in Sources */,
-				40398F6C16FAE05C004F0BD7 /* DDLog.m in Sources */,
-				40398F6D16FAE05C004F0BD7 /* DDTTYLogger.m in Sources */,
-				40398F6E16FAE05C004F0BD7 /* ContextFilterLogFormatter.m in Sources */,
-				40C9573418152CB50010AB7B /* ioapi.c in Sources */,
-				40C9573618152CB50010AB7B /* unzip.c in Sources */,
-				40398F6F16FAE05C004F0BD7 /* DispatchQueueLogFormatter.m in Sources */,
-				40398F7416FAE079004F0BD7 /* LoggerClient.m in Sources */,
 				40398F7B16FAE088004F0BD7 /* NCCWLFormatter.m in Sources */,
 				40398F7C16FAE088004F0BD7 /* NCCWLLogger.m in Sources */,
 				40398F7D16FAE088004F0BD7 /* NCCWL.m in Sources */,
@@ -429,15 +326,12 @@
 		};
 		4057A0BA16EF2EE50017628E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874D3F33291647CB86D92815 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/..\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -446,15 +340,12 @@
 		};
 		4057A0BB16EF2EE50017628E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874D3F33291647CB86D92815 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/..\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

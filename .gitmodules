@@ -1,9 +1,0 @@
-[submodule "CocoaLumberjack"]
-	path = CocoaLumberjack
-	url = https://github.com/robbiehanson/CocoaLumberjack.git
-[submodule "ssziparchive"]
-	path = ssziparchive
-	url = https://github.com/soffes/ssziparchive.git
-[submodule "NSLogger"]
-	path = NSLogger
-	url = https://github.com/fpillet/NSLogger.git

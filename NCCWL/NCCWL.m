@@ -6,7 +6,7 @@
 //
 
 #import "NCCWL.h"
-#import <CrashReporter/CrashReporter.h>
+#import "CrashReporter.h"
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
 #import "NCCWLFormatter.h"

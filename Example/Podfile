@@ -1,0 +1,4 @@
+pod 'PLCrashReporter'
+pod 'SSZipArchive'
+pod 'NSLogger'
+pod 'CocoaLumberjack'
