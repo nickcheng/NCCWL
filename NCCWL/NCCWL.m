@@ -94,7 +94,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
       DDLogInfo(@"Begin zipping logs and crash");
       // Generating zipped file path
-      NSString *cacheDir = [[[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject] path];
+      NSString *cacheDir = ((NSURL *)[[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject]).path;
       NSString *guid = [[NSProcessInfo processInfo] globallyUniqueString];
       NSString *zippedFilePath = [cacheDir stringByAppendingPathComponent:[NSString stringWithFormat:@"zip_%@.zip", guid]];
 
