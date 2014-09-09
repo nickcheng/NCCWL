@@ -1,8 +1,12 @@
 PODS:
-  - CocoaLumberjack (1.9.0):
+  - CocoaLumberjack (2.0.0-beta):
+    - CocoaLumberjack/CLI
+    - CocoaLumberjack/Core
     - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.9.0)
-  - CocoaLumberjack/Extensions (1.9.0):
+  - CocoaLumberjack/CLI (2.0.0-beta):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Core (2.0.0-beta)
+  - CocoaLumberjack/Extensions (2.0.0-beta):
     - CocoaLumberjack/Core
   - NSLogger (1.2)
   - PLCrashReporter (1.2-rc5)
@@ -10,14 +14,18 @@ PODS:
 
 DEPENDENCIES:
   - CocoaLumberjack
-  - NSLogger
+  - NSLogger (from `https://github.com/fpillet/NSLogger.git`)
   - PLCrashReporter
   - SSZipArchive
 
+EXTERNAL SOURCES:
+  NSLogger:
+    :git: https://github.com/fpillet/NSLogger.git
+
 SPEC CHECKSUMS:
-  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
-  NSLogger: c4df4b0208d724f244c05f1966b7402f14d7bf55
-  PLCrashReporter: 8d0e17c3bd9c3cbbc8cc0d959263ebad2a6dfad7
+  CocoaLumberjack: aadc76d7bd6c839ca84b38ed50cbf89d7cf8c693
+  NSLogger: 0313015258516418612f3726c1742773c863600d
+  PLCrashReporter: 979cd3c5bda33655f4df58fa6219d067183d7a7e
   SSZipArchive: 6dc0ea3fe4b55574bee23c9f01d7c0f8437d59ef
 
 COCOAPODS: 0.33.1

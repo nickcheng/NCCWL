@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NCCWL"
-  s.version      = "0.2.0"
+  s.version      = "0.3"
   s.summary      = "CWL == Crash w/ Logs. When your app crash, zip and send the crash info and your recent logs."
   s.description  = <<-DESC
                     This is a glue library. 
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.source_files = 'NCCWL'
   s.public_header_files = 'NCCWL/*.h'
 
-  s.dependency 'CocoaLumberjack', '~> 1.9.0'
-  s.dependency 'NSLogger', '~> 1.2'
-  s.dependency 'SSZipArchive', '~> 0.3.1'
-  s.dependency 'PLCrashReporter', '~> 1.2-rc5'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'NSLogger'
+  s.dependency 'SSZipArchive'
+  s.dependency 'PLCrashReporter'
 end
