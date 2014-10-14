@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NCCWL"
-  s.version      = "0.3"
+  s.version      = "0.2.1"
   s.summary      = "CWL == Crash w/ Logs. When your app crash, zip and send the crash info and your recent logs."
   s.description  = <<-DESC
                     This is a glue library. 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/nickcheng/NCCWL'
   s.license      = 'MIT'
   s.author       = { "nickcheng" => "n@nickcheng.com" }
-  s.source       = { :git => "https://github.com/nickcheng/NCCWL.git", :tag => "0.2.0" }
+  s.source       = { :git => "https://github.com/nickcheng/NCCWL.git", :tag => "0.2.1" }
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
