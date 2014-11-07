@@ -22,19 +22,19 @@
 
 - (NSString *)formatLogMessage:(DDLogMessage *)logMessage {
   NSString *logLevel;
-  switch (logMessage->logFlag) {
-    case LOG_FLAG_ERROR : logLevel = @"Errr:"; break;
-    case LOG_FLAG_WARN  : logLevel = @"Warn:"; break;
-    case LOG_FLAG_INFO  : logLevel = @"    :"; break;
-    default             : logLevel = @"Verb:"; break;
+  switch (logMessage.flag) {
+    case DDLogFlagError   : logLevel = @"Errr:"; break;
+    case DDLogFlagWarning : logLevel = @"Warn:"; break;
+    case DDLogFlagInfo    : logLevel = @"    :"; break;
+    default               : logLevel = @"Verb:"; break;
   }
   
-  NSString *dateAndTime = [_dateFormatter stringFromDate:(logMessage->timestamp)];
-  NSString *logMsg = logMessage->logMsg;
-  NSString *logFunction = [NSString stringWithUTF8String:logMessage->function];
-  NSString *logFile = [NSString stringWithUTF8String:logMessage->file];
+  NSString *dateAndTime = [_dateFormatter stringFromDate:(logMessage.timestamp)];
+  NSString *logMsg = logMessage.message;
+  NSString *logFunction = logMessage.function;
+  NSString *logFile = logMessage.file;
   
-  return [NSString stringWithFormat:@"%@(%@) %@ %@ <%@(%@:%d)>", dateAndTime, [logMessage threadID], logLevel, logMsg, logFunction, logFile, logMessage->lineNumber];
+  return [NSString stringWithFormat:@"%@(%@) %@ %@ <%@(%@:%lu)>", dateAndTime, [logMessage threadID], logLevel, logMsg, logFunction, logFile, (unsigned long)logMessage.line];
 }
 
 @end

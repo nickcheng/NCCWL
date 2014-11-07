@@ -7,8 +7,6 @@
 
 #import "NCCWL.h"
 #import "CrashReporter.h"
-#import "DDTTYLogger.h"
-#import "DDFileLogger.h"
 #import "NCCWLFormatter.h"
 #import "NCCWLLogger.h"
 #import "SSZipArchive.h"
@@ -38,7 +36,7 @@
 
 - (id)init {
   //
-	if((self = [super init]) == nil) return nil;
+  if((self = [super init]) == nil) return nil;
   
   // Custom initialization
   [self configLog];
@@ -97,7 +95,7 @@
       NSString *cacheDir = ((NSURL *)[[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject]).path;
       NSString *guid = [[NSProcessInfo processInfo] globallyUniqueString];
       NSString *zippedFilePath = [cacheDir stringByAppendingPathComponent:[NSString stringWithFormat:@"zip_%@.zip", guid]];
-
+      
       SSZipArchive *zipArchive = [[SSZipArchive alloc] initWithPath:zippedFilePath];
       if ([zipArchive open]) {
         // Zip logs

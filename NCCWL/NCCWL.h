@@ -5,13 +5,12 @@
 //  Copyright (c) 2013年 NC. All rights reserved.
 //
 
-#import "DDLog.h"
-#import "DDLogMacros.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #ifdef DEBUG
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 #else
-static const int ddLogLevel = LOG_LEVEL_WARN;
+static const int ddLogLevel = DDLogLevelWarning;
 #endif
 
 typedef void(^NCCWLCrashHandlerBlockType)(NSString *cwlFilePath);

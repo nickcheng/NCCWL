@@ -1,6 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/PLCrashReporter/iOS Framework"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ${inherited} NSLOGGER_BUILD_USERNAME="${USER}"
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/CocoaLumberjack" "${PODS_ROOT}/Headers/NSLogger" "${PODS_ROOT}/Headers/PLCrashReporter" "${PODS_ROOT}/Headers/SSZipArchive" "${PODS_ROOT}/Headers/SSZipArchive/minizip"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/NSLogger" -isystem "${PODS_ROOT}/Headers/PLCrashReporter" -isystem "${PODS_ROOT}/Headers/SSZipArchive" -isystem "${PODS_ROOT}/Headers/SSZipArchive/minizip"
-OTHER_LDFLAGS = -ObjC -lz -framework CFNetwork -framework CrashReporter -framework SystemConfiguration
-PODS_ROOT = ${SRCROOT}/Pods

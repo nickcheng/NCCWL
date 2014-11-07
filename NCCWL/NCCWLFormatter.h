@@ -5,7 +5,7 @@
 //  Copyright (c) 2013年 NC. All rights reserved.
 //
 
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @interface NCCWLFormatter : NSObject <DDLogFormatter>
 
