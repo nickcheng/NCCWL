@@ -1,4 +1,4 @@
-pod 'PLCrashReporter'
-pod 'SSZipArchive'
-pod 'NSLogger', :git => 'https://github.com/fpillet/NSLogger.git'
 pod 'CocoaLumberjack'
+pod 'NSLogger'
+pod 'SSZipArchive'
+pod 'PLCrashReporter'
