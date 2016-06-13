@@ -1,6 +1,6 @@
 // Software License Agreement (BSD License)
 //
-// Copyright (c) 2010-2015, Deusty, LLC
+// Copyright (c) 2010-2016, Deusty, LLC
 // All rights reserved.
 //
 // Redistribution and use of this software in source and binary forms,
@@ -23,9 +23,19 @@
 
 #import "DDLog.h"
 
-
-typedef NS_ENUM(NSUInteger, DDDispatchQueueLogFormatterMode) {
+/**
+ *  Log formatter mode
+ */
+typedef NS_ENUM(NSUInteger, DDDispatchQueueLogFormatterMode){
+    /**
+     *  This is the default option, means the formatter can be reused between multiple loggers and therefore is thread-safe.
+     *  There is, of course, a performance cost for the thread-safety
+     */
     DDDispatchQueueLogFormatterModeShareble = 0,
+    /**
+     *  If the formatter will only be used by a single logger, then the thread-safety can be removed
+     *  @note: there is an assert checking if the formatter is added to multiple loggers and the mode is non-shareble
+     */
     DDDispatchQueueLogFormatterModeNonShareble,
 };
 

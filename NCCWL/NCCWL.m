@@ -104,10 +104,10 @@
         NSDirectoryEnumerator *dirEnumerator = [fileManager enumeratorAtPath:logPath];
         for (NSString *file in dirEnumerator) {
           NSString *fullPath = [logPath stringByAppendingPathComponent:file];
-          [zipArchive writeFile:fullPath];
+          [zipArchive writeFile:fullPath withPassword:nil];
         }
         // Zip crash
-        [zipArchive writeData:crashData filename:@"crashData.plcrash"];
+        [zipArchive writeData:crashData filename:@"crashData.plcrash" withPassword:nil];
         // Purge the report
         [crashReporter purgePendingCrashReport];
         [zipArchive close];
