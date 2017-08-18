@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NCCWL"
-  s.version      = "0.2.4"
+  s.version      = "0.2.5"
   s.summary      = "CWL == Crash w/ Logs. When your app crash, zip and send the crash info and your recent logs."
   s.description  = <<-DESC
                     This is a glue library. 
@@ -11,19 +11,19 @@ Pod::Spec.new do |s|
 
                     I didn't expose all the properties of log and crash libraries. You can modify them in file ```NCCWL.m``` to fit your need. 
                    DESC
-  s.homepage     = 'https://github.com/nickcheng/NCCWL'
-  s.license      = 'MIT'
+  s.homepage     = "https://github.com/nickcheng/NCCWL"
+  s.license      = "MIT"
   s.author       = { "nickcheng" => "n@nickcheng.com" }
-  s.source       = { :git => "https://github.com/nickcheng/NCCWL.git", :tag => "0.2.4" }
+  s.source       = { :git => "https://github.com/nickcheng/NCCWL.git", :tag => "0.2.5" }
 
-  s.platform     = :ios, '6.1'
+  s.platform     = :ios, "9.0"
   s.requires_arc = true
 
-  s.source_files = 'NCCWL'
-  s.public_header_files = 'NCCWL/*.h'
+  s.source_files = "NCCWL"
+  s.public_header_files = "NCCWL/*.h"
 
-  s.dependency 'CocoaLumberjack', '~> 2.3.0'
-  s.dependency 'NSLogger', '~> 1.5.1'
-  s.dependency 'SSZipArchive', '~> 1.2.0'
-  s.dependency 'PLCrashReporter', '~> 1.2'
+  s.dependency "CocoaLumberjack", "~> 2.3.0"
+  s.dependency "NSLogger", "~> 1.5.1"
+  s.dependency "SSZipArchive", "~> 1.2.0"
+  s.dependency "PLCrashReporter-DynamicFramework", "~> 1.3.0.1"
 end
