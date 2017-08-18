@@ -21,6 +21,7 @@
   [[NCCWL sharedInstance] setCrashHandler:^(NSString *cwlFilePath) {
     //
     DDLogError(@"Lalala: %@", cwlFilePath);
+      NSLog(@"Lalala: %@", cwlFilePath);
   }];
   
   self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];

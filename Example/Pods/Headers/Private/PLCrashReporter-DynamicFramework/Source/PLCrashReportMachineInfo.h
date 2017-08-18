@@ -1,0 +1,1 @@
+../../../../PLCrashReporter-DynamicFramework/Source/PLCrashReportMachineInfo.h

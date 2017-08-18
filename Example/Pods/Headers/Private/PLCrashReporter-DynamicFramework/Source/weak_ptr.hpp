@@ -1,0 +1,1 @@
+../../../../PLCrashReporter-DynamicFramework/Source/weak_ptr.hpp

@@ -10,21 +10,21 @@ PODS:
   - NSLogger (1.5.1):
     - NSLogger/Standard (= 1.5.1)
   - NSLogger/Standard (1.5.1)
-  - PLCrashReporter (1.2.0)
+  - PLCrashReporter-DynamicFramework (1.3.0.1)
   - SSZipArchive (1.2)
 
 DEPENDENCIES:
   - CocoaLumberjack
   - NSLogger
-  - PLCrashReporter
+  - PLCrashReporter-DynamicFramework
   - SSZipArchive
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
   NSLogger: 5ed223a2436df96244e033be750656dacdeec034
-  PLCrashReporter: 16927d86a093d0b9cf110545dacb77cb0ed0f243
+  PLCrashReporter-DynamicFramework: b9b36b99dff91f2953f9c23ee7985f4204ca089f
   SSZipArchive: 251093c65f98d6ea282c50bc404bfa631d9fd721
 
-PODFILE CHECKSUM: 831633837ba099037131b5683a33d616c5a2c14d
+PODFILE CHECKSUM: 5596c8eb50cf097926fb426f0a28ac3cfcc6cc1b
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.1

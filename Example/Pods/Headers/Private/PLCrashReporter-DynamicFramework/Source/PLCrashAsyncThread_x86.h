@@ -1,0 +1,1 @@
+../../../../PLCrashReporter-DynamicFramework/Source/PLCrashAsyncThread_x86.h

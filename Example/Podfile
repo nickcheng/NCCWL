@@ -3,6 +3,6 @@ target 'test' do
 pod 'CocoaLumberjack'
 pod 'NSLogger'
 pod 'SSZipArchive'
-pod 'PLCrashReporter'
+pod 'PLCrashReporter-DynamicFramework'
 
 end

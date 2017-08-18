@@ -6,7 +6,7 @@
 //
 
 #import "NCCWL.h"
-#import <CrashReporter/CrashReporter.h>
+#import <PLCrashReporter-DynamicFramework/Source/CrashReporter.h>
 #import "NCCWLFormatter.h"
 #import "NCCWLLogger.h"
 #import "SSZipArchive.h"
